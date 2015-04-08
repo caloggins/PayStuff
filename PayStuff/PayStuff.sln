@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayStuffWeb", "PayStuffWeb\PayStuffWeb.csproj", "{056D4AA4-0AC5-41B9-AF20-927DD1F201EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayStuffWeb.Tests", "PayStuffWeb.Tests\PayStuffWeb.Tests.csproj", "{2169892A-B0DF-4127-9A75-AEC3A794F6C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayStuffLib", "PayStuffLib\PayStuffLib.csproj", "{05801BAF-93A2-43FB-8488-E3E12B3B577D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6D696448-FC00-4F0F-8785-201BF8CC3F7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayStuffLib.Tests", "PayStuffLib.Tests\PayStuffLib.Tests.csproj", "{9420373C-9BFF-4BEB-BD7E-D2885F187270}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{728BCF0C-C10C-4C67-9085-2C21F08CAC21}"
+	ProjectSection(SolutionItems) = preProject
+		BenefitsCostsTable.sql = BenefitsCostsTable.sql
+		DummyData.sql = DummyData.sql
+		EmployeesTable.sql = EmployeesTable.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{056D4AA4-0AC5-41B9-AF20-927DD1F201EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056D4AA4-0AC5-41B9-AF20-927DD1F201EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056D4AA4-0AC5-41B9-AF20-927DD1F201EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056D4AA4-0AC5-41B9-AF20-927DD1F201EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2169892A-B0DF-4127-9A75-AEC3A794F6C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2169892A-B0DF-4127-9A75-AEC3A794F6C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2169892A-B0DF-4127-9A75-AEC3A794F6C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2169892A-B0DF-4127-9A75-AEC3A794F6C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05801BAF-93A2-43FB-8488-E3E12B3B577D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05801BAF-93A2-43FB-8488-E3E12B3B577D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05801BAF-93A2-43FB-8488-E3E12B3B577D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05801BAF-93A2-43FB-8488-E3E12B3B577D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9420373C-9BFF-4BEB-BD7E-D2885F187270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9420373C-9BFF-4BEB-BD7E-D2885F187270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9420373C-9BFF-4BEB-BD7E-D2885F187270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9420373C-9BFF-4BEB-BD7E-D2885F187270}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2169892A-B0DF-4127-9A75-AEC3A794F6C7} = {6D696448-FC00-4F0F-8785-201BF8CC3F7E}
+		{9420373C-9BFF-4BEB-BD7E-D2885F187270} = {6D696448-FC00-4F0F-8785-201BF8CC3F7E}
+	EndGlobalSection
+EndGlobal
