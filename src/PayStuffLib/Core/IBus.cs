@@ -2,6 +2,7 @@
 {
     public interface IBus
     {
-        void Publish<TEvent>(TEvent @evemt);
+        void Publish<TMessage>(TMessage message)
+            where TMessage : class;
     }
 }

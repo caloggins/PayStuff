@@ -10,6 +10,7 @@ namespace PayStuffWeb.Tests.Controllers
     using NUnit.Framework;
     using PayStuffLib.Benefits;
     using PayStuffLib.Core;
+    using PayStuffLib.Data;
     using PayStuffLib.Employees;
     using PayStuffWeb.Controllers;
 

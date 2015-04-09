@@ -1,4 +1,4 @@
-﻿namespace PayStuffLib.Employees
+﻿namespace PayStuffLib.Core
 {
     public abstract class Command
     {

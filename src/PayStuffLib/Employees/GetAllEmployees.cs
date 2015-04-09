@@ -4,6 +4,7 @@
     using System.Data;
     using Core;
     using DapperExtensions;
+    using Data;
     using FizzWare.NBuilder;
 
     public class GetAllEmployees : NoParameterQuery<IEnumerable<Employee>>

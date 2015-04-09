@@ -4,6 +4,7 @@
     using System.Data;
     using AutoMapper;
     using Benefits;
+    using Core;
     using DapperExtensions;
 
     public class CreateEmployee : Command

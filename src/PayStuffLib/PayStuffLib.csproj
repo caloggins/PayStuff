@@ -77,13 +77,15 @@
     <Compile Include="Benefits\GetAllBenefits.cs" />
     <Compile Include="Benefits\GetBenefitsByEmployee.cs" />
     <Compile Include="Core\BenefitsProfile.cs" />
-    <Compile Include="Core\IBus.cs" />
     <Compile Include="Core\Entity.cs" />
     <Compile Include="Core\IQuery.cs" />
     <Compile Include="Core\IQueryFactory.cs" />
     <Compile Include="Core\NoParameterQuery.cs" />
     <Compile Include="Core\Query.cs" />
-    <Compile Include="Employees\Command.cs" />
+    <Compile Include="Data\Person.cs" />
+    <Compile Include="Dependents\CreateDependent.cs" />
+    <Compile Include="Dependents\Dependent.cs" />
+    <Compile Include="Core\Command.cs" />
     <Compile Include="Employees\CreateEmployee.cs" />
     <Compile Include="Employees\DeleteEmployee.cs" />
     <Compile Include="Employees\GetAllEmployees.cs" />

@@ -5,6 +5,7 @@
     using System.Linq;
     using Core;
     using DapperExtensions;
+    using Data;
 
     public class GetBenefitsByEmployee : Query<Guid, BenefitsCost>
     {

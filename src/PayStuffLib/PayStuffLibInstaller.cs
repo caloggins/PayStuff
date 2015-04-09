@@ -7,6 +7,7 @@
     using Castle.MicroKernel.SubSystems.Configuration;
     using Castle.Windsor;
     using Core;
+    using Data;
     using Employees;
 
     public class PayStuffLibInstaller : IWindsorInstaller

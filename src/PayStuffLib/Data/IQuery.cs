@@ -1,4 +1,4 @@
-﻿namespace PayStuffLib.Core
+﻿namespace PayStuffLib.Data
 {
     public interface IQuery
     {

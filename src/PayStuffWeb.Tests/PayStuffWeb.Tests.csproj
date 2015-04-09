@@ -94,6 +94,7 @@
     <Compile Include="Code\AppInstallerTests.cs" />
     <Compile Include="ContainerAssertions.cs" />
     <Compile Include="Controllers\BenefitsControllersTests.cs" />
+    <Compile Include="Controllers\DependentsControllerTests.cs" />
     <Compile Include="Controllers\EmployeesControllerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

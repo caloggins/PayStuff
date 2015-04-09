@@ -3,6 +3,7 @@
     using System;
     using System.Data;
     using Benefits;
+    using Core;
     using DapperExtensions;
 
     public class DeleteEmployee : Command

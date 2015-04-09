@@ -4,6 +4,7 @@
     using System.Data;
     using Core;
     using DapperExtensions;
+    using Data;
 
     public class GetAllBenefits : NoParameterQuery<IEnumerable<BenefitsCost>>
     {
