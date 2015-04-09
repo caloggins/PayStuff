@@ -4,7 +4,7 @@
 
     public class SavePerson
     {
-        public void Run(Person person)
+        public virtual void Run(Guid employeeId, string name)
         {
             throw new NotImplementedException();
         }

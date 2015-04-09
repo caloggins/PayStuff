@@ -18,6 +18,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{728B
 		BenefitsCostsTable.sql = BenefitsCostsTable.sql
 		DummyData.sql = DummyData.sql
 		EmployeesTable.sql = EmployeesTable.sql
+		PeopleTable.sql = PeopleTable.sql
 	EndProjectSection
 EndProject
 Global

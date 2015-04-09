@@ -79,6 +79,7 @@
     <Compile Include="ContainerAssertions.cs" />
     <Compile Include="Core\MappingProfileTests.cs" />
     <Compile Include="DatabaseConnection.cs" />
+    <Compile Include="Dependents\CreateDependentTests.cs" />
     <Compile Include="Employees\BenefitCalculatorTests.cs" />
     <Compile Include="Employees\DeleteEmployeeTests.cs" />
     <Compile Include="Employees\GetAllEmployeesTests.cs" />
