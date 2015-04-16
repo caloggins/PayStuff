@@ -11,14 +11,14 @@
     public class CreateDependentTests
     {
         private CreateDependent sut;
-        private SavePerson savePerson;
+        private ISavePerson savePerson;
         private IBus bus;
         private Func<Guid> idGenerator;
 
         [SetUp]
         public virtual void SetUp()
         {
-            savePerson = A.Fake<SavePerson>();
+            savePerson = A.Fake<ISavePerson>();
             bus = A.Fake<IBus>();
             idGenerator = A.Fake<Func<Guid>>();
             sut = new CreateDependent(idGenerator, savePerson, bus);

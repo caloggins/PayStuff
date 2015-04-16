@@ -80,7 +80,6 @@
     <Compile Include="Core\BuilderTests.cs" />
     <Compile Include="Core\MappingProfileTests.cs" />
     <Compile Include="DatabaseConnection.cs" />
-    <Compile Include="Data\PersonBuilderTests.cs" />
     <Compile Include="Dependents\CreateDependentTests.cs" />
     <Compile Include="Employees\BenefitCalculatorTests.cs" />
     <Compile Include="Employees\DeleteEmployeeTests.cs" />
@@ -100,7 +99,9 @@
       <Name>PayStuffLib</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

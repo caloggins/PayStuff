@@ -7,10 +7,10 @@
     public class CreateDependent : Command
     {
         private readonly Func<Guid> idGenerator;
-        private readonly SavePerson savePerson;
+        private readonly ISavePerson savePerson;
         private readonly IBus bus;
 
-        public CreateDependent(Func<Guid> idGenerator, SavePerson savePerson, IBus bus)
+        public CreateDependent(Func<Guid> idGenerator, ISavePerson savePerson, IBus bus)
         {
             this.idGenerator = idGenerator;
             this.savePerson = savePerson;

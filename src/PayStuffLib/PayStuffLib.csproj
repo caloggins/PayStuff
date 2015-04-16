@@ -76,8 +76,10 @@
     <Compile Include="Benefits\BenefitsCost.cs" />
     <Compile Include="Benefits\GetAllBenefits.cs" />
     <Compile Include="Benefits\GetBenefitsByEmployee.cs" />
-    <Compile Include="Core\Builder.cs" />
+    <Compile Include="Core\ObjectConstruction\BuildType.cs" />
     <Compile Include="Core\BenefitsProfile.cs" />
+    <Compile Include="Core\ObjectConstruction\IObjectBuilder.cs" />
+    <Compile Include="Core\ObjectConstruction\ObjectBuilder.cs" />
     <Compile Include="Core\Entity.cs" />
     <Compile Include="Core\IBus.cs" />
     <Compile Include="Data\IQuery.cs" />
