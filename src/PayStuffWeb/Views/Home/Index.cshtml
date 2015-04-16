@@ -19,7 +19,7 @@
 
         <tbody data-bind="foreach: costs">
             <tr>
-                <td data-bind="text: name"></td>
+                <td data-bind="text: dependentName"></td>
                 <td data-bind="text: numberOfDependents"></td>
                 <td data-bind="text: cost"></td>
                 <td><input type="button" class="btn btn-danger btn-xs" value="delete" data-bind="click: $parent.removeCost" /></td>
@@ -32,7 +32,7 @@
     <form role="form">
         <div class="form-group">
             <label for="name">Name</label>
-            <input id="name" type="text" class="form-control" data-bind="value: name" />
+            <input id="name" type="text" class="form-control" data-bind="value: dependentName" />
         </div>
 
         <div class="form-group">
